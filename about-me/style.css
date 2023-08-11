@@ -37,7 +37,7 @@ li {
 }
 
 fieldset {
-    width: 35%;
+    max-width: 500px;
     color: #224d73;
     border-color: #224d73;
     padding-left: 5px;
