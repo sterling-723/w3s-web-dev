@@ -15,9 +15,21 @@ section {
     margin: auto;
 }
 
+li {
+    font-family: "Fira Code";
+}
+
 .about-me-p {
-    width: 30%;
+    min-width: 300px;
+    max-width: 600px;
     text-align: justify;
+    font-family: "Optima";
+    font-size: 20px;
+    font-weight: 0;
+}
+
+.location {
+    font-weight: bold;
 }
 
 .me-photo {
@@ -25,16 +37,18 @@ section {
 }
 
 fieldset {
-    width: 25%;
+    width: 35%;
     color: #224d73;
     border-color: #224d73;
     padding-left: 5px;
+    border-radius: 5px;
 }
 
 legend {
     font-style: italic;
     font-size: smaller;
     font-weight: 400;
+    margin-left: 25px;
 }
 
 .form-textbox {
@@ -44,20 +58,23 @@ legend {
     border-radius: 5px;
     border-color: #224d73;
     border-style: ridge;
+    color: #224d73;
 }
 
 .large-textarea {
     margin: 2px;
+    color: #224d73;
     font-family: "Fira Code";
     font-size: 13px;
     border-radius: 5px;
     border-color: #224d73;
-    border-style: ridge;
     height: 100px;
     width: 100%;
-    text-align: left;
-    vertical-align: top;
-    box-sizing: border-box;
+}
+
+.large-textarea::placeholder {
+    color: #656b70;
+    font-family: "Fira Code";
 }
 
 input::placeholder {
@@ -67,4 +84,8 @@ input::placeholder {
 #form-submit-button {
     color: #224d73;
     font-weight: bold;
+}
+
+#form-submit-button:active {
+    background-color: #0dff00;
 }
