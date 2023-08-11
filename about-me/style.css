@@ -1,0 +1,46 @@
+body {
+    background-color: #ffc278;
+    font-family: "Fira Code";
+    margin: 1% 3% 5%;
+    color: #42321f;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: auto;
+}
+
+fieldset {
+    width: 15%;
+    color: #42321f;
+    border-color: #42321f;
+}
+
+legend {
+    font-style: italic;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.form-textbox {
+    margin: 2px;
+    background-color: #ffe5c4;
+    font-family: "Fira Code";
+    border-radius: 5px;
+    border-color: #42321f;
+    border-style: ridge;
+}
+
+input::placeholder {
+    color: #807262;
+}
+
+#form-submit-button {
+    color: #42321f;
+    font-weight: bold;
+}
