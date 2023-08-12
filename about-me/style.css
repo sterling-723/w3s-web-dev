@@ -61,6 +61,10 @@ legend {
     color: #224d73;
 }
 
+.form-textbox::placeholder {
+    font-size: 13px;
+}
+
 .large-textarea {
     margin: 2px;
     color: #224d73;
@@ -69,7 +73,8 @@ legend {
     border-radius: 5px;
     border-color: #224d73;
     height: 100px;
-    width: 100%;
+    width: 80%;
+    margin-top: 10px;
 }
 
 .large-textarea::placeholder {
