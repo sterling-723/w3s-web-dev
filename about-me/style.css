@@ -1,22 +1,38 @@
 body {
+    display: grid;
     background-color: #93c7f4;
     font-family: "Fira Code";
-    margin: 1% 3% 5%;
     color: #224d73;
+    grid-template-columns: 45% 55%;
 }
 
 h1 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 10px;
-}
-
-section {
-    margin: auto;
+    margin-left: 20px;
 }
 
 li {
     font-family: "Fira Code";
+}
+
+.github {
+    margin-left: 20px;
+}
+
+.us-flag {
+    height: 100px;
+    width: 200px;
+}
+
+figure {
+    margin-left: 20px;
+}
+
+.me-photo {
+    height: 150px;
+    width: 150px;
 }
 
 .about-me-p {
@@ -26,6 +42,7 @@ li {
     font-family: "Optima";
     font-size: 20px;
     font-weight: 0;
+    margin-left: 20px;
 }
 
 .location {
@@ -34,6 +51,8 @@ li {
 
 .me-photo {
     margin-left: 0;
+    width: 150px;
+    height: 150px;
 }
 
 fieldset {
@@ -49,6 +68,16 @@ legend {
     font-size: smaller;
     font-weight: 400;
     margin-left: 25px;
+}
+
+.form-section {
+    display: flex;
+    align-items: flex-end;
+}
+
+form {
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .form-textbox {
@@ -73,7 +102,7 @@ legend {
     border-radius: 5px;
     border-color: #224d73;
     height: 100px;
-    width: 80%;
+    width: 50%;
     margin-top: 10px;
 }
 

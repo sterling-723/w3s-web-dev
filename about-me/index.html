@@ -3,23 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Sterling Evans" />
         <link rel="stylesheet" href="style.css" />
         <title>About Me</title>
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+        <base target="_blank" />
     </head>
     <body>
         <section>
             <header>
                 <h1>Sterling Evans</h1>
             </header>
-            <a href="https://github.com/sterling-723" target="_blank"
+            <a class="github" href="https://github.com/sterling-723"
                 >Checkout My GitHub!</a
             ><br /><br />
             <figure>
                 <img
                     src="us-flag.png"
                     alt="United States Flag"
-                    height="100px"
-                    width="200px"
+                    class="us-flag"
                 />
             </figure>
         </section>
@@ -35,12 +37,11 @@
             </ul>
         </section>
         <section>
-            <figure class="me-photo">
+            <figure>
                 <img
-                    width="150px"
-                    height="150px"
                     src="headshot.png"
                     alt="Photo of Sterling"
+                    class="me-photo"
                 />
             </figure>
             <article class="about-me-p">
@@ -58,7 +59,7 @@
             </article>
         </section>
 
-        <section>
+        <section class="form-section">
             <form action="">
                 <fieldset>
                     <legend>Get In Contact With Me!</legend>
