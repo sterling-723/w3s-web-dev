@@ -3,7 +3,7 @@ body {
     background-color: #93c7f4;
     font-family: "Fira Code";
     color: #224d73;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
 }
 
