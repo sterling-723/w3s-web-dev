@@ -1,41 +1,124 @@
-<!DOCTYPE html>
+<!DOCTYliE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="viewliort"
+            content="width=device-width, initial-scale=1.0"
+        />
         <title>Microsoft Mock</title>
         <link rel="stylesheet" href="micro-mock.css" />
     </head>
     <body>
         <nav class="main-navigation">
-            <div class="left-nav">
-                <img
-                    src="micro-img.jpeg"
-                    alt="microsoft icon"
-                    class="left-nav-item"
-                />
-                <p class="left-nav-item">Microsoft 365</p>
-                <p class="left-nav-item">Office</p>
-                <p class="left-nav-item">Windows</p>
-                <p class="left-nav-item">Surface</p>
-                <p class="left-nav-item">Xbox</p>
-                <p class="left-nav-item">Deals</p>
-                <p class="left-nav-item">Support</p>
-            </div>
+            <ul class="left-nav">
+                <img src="micro-img.jpeg" alt="microsoft icon" />
+                <li>Microsoft 365</li>
+                <li>Office</li>
+                <li>Windows</li>
+                <li>Surface</li>
+                <li>Xbox</li>
+                <li>Deals</li>
+                <li>Support</li>
+            </ul>
 
-            <div class="right-nav">
-                <p class="right-nav-item">All Microsoft</p>
-                <p class="right-nav-item">Search</p>
-                <p class="right-nav-item">Cart</p>
-                <p class="right-nav-item">Sign in</p>
+            <ul class="right-nav">
+                <li>All Microsoft</li>
+                <li>Search</li>
+                <li>Cart</li>
+                <li>Sign in</li>
                 <img src="" alt="" />
-            </div>
+            </ul>
         </nav>
         <div class="banner">
-            <p class="banner-text">
+            <li class="banner-text">
                 Read how we're responding to the COVID-19 outbreak, and get
-                resources to help >
-            </p>
+                resources to help <span class="chevron">&rsaquo;</span>
+            </li>
         </div>
+        <main>
+            <div class="computer-div">
+                <img
+                    id="computer-pic"
+                    src="./Screenshot 2023-08-31 at 7.26.48 PM.png"
+                    alt="computers"
+                />
+            </div>
+            <div id="arrow-div">
+                <div class="scroll">&lsaquo;</div>
+                <div class="scroll">&rsaquo;</div>
+            </div>
+            <h1>Trade and upgrade</h1>
+            <p>
+                Get at least $100 off a qualifying Surface when you trade in an
+                eligible used device
+            </p>
+            <button id="shop-button">
+                Shop now <span id="shop-chevron">&rsaquo;</span>
+            </button>
+            <div id="page-div">
+                <p>&#9675; &#9679;</p>
+                <p>||</p>
+            </div>
+        </main>
+
+        <footer>
+            <ul id="footer-list">
+                <li class="footer-item">
+                    <img
+                        src="./windows-image2.png"
+                        alt=""
+                        width="50px"
+                        height="50px"
+                    />
+                    <p>Choose your <br />Microsoft 365</p>
+                </li>
+                <li class="footer-item">
+                    <img
+                        src="./tablet-icon.png"
+                        alt="windows icon"
+                        width="50px"
+                        height="50px"
+                    />
+                    <p>Shop Surface <br />devices</p>
+                </li>
+                <li class="footer-item">
+                    <img
+                        src="./xbox.png"
+                        alt="windows icon"
+                        width="50px"
+                        height="50px"
+                    />
+                    <p>Buy Xbox games<br />and consoles</p>
+                </li>
+                <li class="footer-item">
+                    <img
+                        src="./windows-icon.png"
+                        alt="windows icon"
+                        width="50px"
+                        height="50px"
+                    />
+                    <p>Shop Windows<br />10</p>
+                </li>
+                <li class="footer-item">
+                    <img
+                        src="./PC-icon.avif"
+                        alt="windows icon"
+                        width="50px"
+                        height="50px"
+                    />
+                    <p>Find your next PC</p>
+                </li>
+                <li class="footer-item">
+                    <img
+                        src="./business-icon.png"
+                        alt="windows icon"
+                        width="50px"
+                        height="50px"
+                    />
+                    <p>Shop Business</p>
+                </li>
+            </ul>
+        </footer>
     </body>
 </html>

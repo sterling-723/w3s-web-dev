@@ -1,45 +1,145 @@
 body {
     font-family: "Open Sans";
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .main-navigation {
-    font-size: smaller;
+    font-size: 13px;
     display: flex;
     justify-content: space-between;
     margin-top: 0;
     height: 50px;
+    min-width: 60%;
 }
 
 .left-nav {
     display: flex;
     align-items: center;
-    padding-right: 150px;
+    width: 45%;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+li {
+    cursor: pointer;
 }
 
 .right-nav {
     display: flex;
     align-items: center;
+    width: 20%;
+    justify-content: space-between;
 }
 
-.left-nav-item {
-    margin-left: 35px;
-}
-
-.right-nav-item {
-    margin-right: 35px;
+.left-nav,
+.right-nav,
+.banner,
+#footer-list {
+    list-style: none;
 }
 
 .banner {
     background-color: #0867b8;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     text-align: center;
     color: #eff5fb;
     align-items: center;
+    cursor: pointer;
 }
 
 .banner-text {
     margin: 0;
     font-size: 14px;
     font-weight: 400;
+}
+
+.chevron {
+    font-weight: 100;
+}
+
+main {
+    text-align: center;
+    background-color: #e7e7e7;
+}
+
+#arrow-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll {
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #f6f6f6;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.computer-div {
+    background-color: #e7e7e7;
+}
+
+#computer-pic {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    background-color: #e7e7e7;
+}
+
+#shop-button {
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    font-family: "Open Sans";
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#shop-chevron {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h1 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#page-div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e7e7e7;
+    width: 120px;
+    margin: auto;
+}
+
+footer {
+    height: 5%;
+    background-color: #ffffff;
+    margin: 0 50px;
+}
+
+#footer-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+.footer-item {
+    text-align: center;
+    font-weight: bold;
 }
