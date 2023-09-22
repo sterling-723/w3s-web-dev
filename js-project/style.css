@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("/js-project/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    background-color: #ecd8d8;
+}
+
+.btn {
+    height: 22%;
+}
+
+.op-btn {
+    width: 85%;
+    margin: 3px;
+    box-sizing: border-box;
+}
+.num-btn {
+    width: 25%;
+    margin: 3px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 200px;
+    height: 300px;
+    border: black solid 1px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: rgb(161, 161, 161);
+    padding: 5px;
+}
+
+#screen {
+    font-family: "Cursed Timer ULiL";
+    font-size: xx-large;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: rgb(145, 255, 255);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+}
+
+#point {
+    border-bottom-right-radius: 15px;
+    width: 85%;
+}
+#zero {
+    border-bottom-left-radius: 15px;
+}
+
+#oper-btns {
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    height: 174px;
+}
+
+#clear {
+    width: 25%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#equals {
+    width: 25%;
+}
+
+#num-btns {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+}
+
+#screen {
+    text-align: right;
+}
